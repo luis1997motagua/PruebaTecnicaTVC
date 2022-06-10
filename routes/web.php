@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\CreateNewController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/news', function () {
-    return view('homenews');
-});
+//Route::get('/news',[NewsController::class,'index']);
 
+Route::get('/news',function(){
+   return view('homenews');
+})->name('news');
+
+Route::get('/addnews',function(){
+ return view('addnew');
+})->name('addnews');
