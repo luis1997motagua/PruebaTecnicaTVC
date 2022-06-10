@@ -37,8 +37,19 @@
                 <a class="nav-link" href="#"> <i class="bi bi-search-heart-fill"></i> Busquedas guardadas</a>
                
               </li>
+            
             </ul>
-           
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+              <option selected>Buscar temas, ubicaciones y fuentes</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            
+            
+            <i class="bi bi-list-task" style="margin-left: 80px; margin-top: 20px"></i>
+            <i class="bi bi-plus-circle-fill" style="margin-left: 30px; margin-top: 20px"></i>
+
           </div>
         </div>
       </nav>
