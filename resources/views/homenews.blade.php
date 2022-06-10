@@ -22,7 +22,7 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Noticias destacadas
                 </a>
-                <img src="public/planeta-tierra.png" width="30" height="24" class="d-inline-block align-text-top" >
+                <img src="PRUEBATECNICA_TVC/public/planeta-tierra.png" width="30" height="24" class="d-inline-block align-text-top" >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Para ti</a>
