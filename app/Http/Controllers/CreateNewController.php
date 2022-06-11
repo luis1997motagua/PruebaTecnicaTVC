@@ -15,6 +15,7 @@ class CreateNewController extends Controller
       $noticias->Descripcion=$request->input('txtdesc');
       $noticias->urlImage=$request->input('txturli');
       $noticias->save();
-     
+      
+      return redirect()->route('news.index');
    }
 }
