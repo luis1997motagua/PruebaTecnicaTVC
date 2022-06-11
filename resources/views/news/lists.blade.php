@@ -41,6 +41,33 @@
         </ul>
       </nav>
 <body>
-    
+   <div class="row">
+     <div class="col-lx-12">
+       <div class="table-responsive">
+           <table class="table table-striped">
+              <thead>
+                <tr>
+                 <th>Opciones</th>
+                 <th>ID</th>
+                 <th>Titulo</th>
+                 <th>Descripcion</th>
+                 <th>Url Image</th>
+                </tr>
+              </thead>
+              <tbody>
+                @foreach($noticias as $notice)
+                 <tr>
+                    <td>Editar | Eliminar</td>
+                    <td>{{$notice->Id}}</td>
+                    <td>{{$notice->Titulo}}</td>
+                    <td>{{$notice->Descripcion}}</td>
+                    <td>{{$notice->urlImage}}</td>
+                 </tr>
+                 @endforeach
+              </tbody>
+           </table>
+       </div>
+     </div>
+   </div>    
 </body>
 </html>
