@@ -20,7 +20,5 @@ class CreateNewController extends Controller
       return redirect()->route('news.index');
    }
 
-   public function edit($id){
-
-   }
+  
 }

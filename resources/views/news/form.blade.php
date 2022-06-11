@@ -48,21 +48,21 @@
     <div class="form-class">
     <form action="{{route('news.store')}}" method="POST" >
     @csrf
-      <label for="txtnotice">Titulo Noticia: </label>
-      <input type="text" name="txtnotice" required >
+      <label >Titulo Noticia: </label>
+      <input type="text" name="txtnotice" required  >
   
       <br/>
       <br/>
    
-      <label for="txtdesc">Descripción: </label>
+      <label >Descripción: </label>
 
       <br/>
-      <textarea name="txtdesc" cols="60" rows="10" required></textarea>
+      <textarea name="txtdesc" cols="60" rows="10"  required ></textarea>
       
       <br/>
       <br/>
-      <label for="">Enlace url imagen: </label>
-      <input type="text" name="txturli" required>
+      <label>Enlace url imagen: </label>
+      <input type="text" name="txturli"  required>
     </div>
     <br/>
     <br/>

@@ -13,9 +13,7 @@ class listController extends Controller
         return view('news.lists',compact('noticias'));
     }
 
-    public function edit($id){
-
-    }
+   
 
     public function destroy($id){
         $noticias = Noticia::findOrFail($id);

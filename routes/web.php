@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\CreateNewController;
 use App\Http\Controllers\listController;
+use App\Http\Controllers\EditController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +20,4 @@ use App\Http\Controllers\listController;
 Route::resource('/index',NewsController::class);
 Route::resource('/news',CreateNewController::class);
 Route::resource('/listnews',listController::class);
+Route::resource('/updtnews',EditController::class);

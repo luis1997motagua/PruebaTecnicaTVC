@@ -49,13 +49,26 @@
         
         <a href="#"><i class="bi bi-list-task" style="margin-left: 80px; margin-top: 20px"></i></a>
         <a href="{{route('news.index')}}"><i class="bi bi-plus-circle-fill" style="margin-left: 30px; margin-top: 20px"></i></a> 
-
+      </nav>
+   <body>
+    <hr/>
+    @foreach ($content as $noticia)
+        
+ 
+    <div class="card" style="width: 75rem;">
+      <a href="{{$noticia->urlImage}}" target="_blank">Click para ver Imagen de Noticia</a>
+      <div class="card-body">
+        <h5 class="card-title">{{$noticia->Titulo}}</h5>
+        <p class="card-text">{{$noticia->Descripcion}}</p>
       </div>
     </div>
-  </nav>
-   <body>
-   
-     
-      
+    @endforeach
+    <br/>
+    <hr/>
    </body>
+   <style>
+      body{
+         background-color: #E0FAF8;;
+      }
+   </style>
 </html>
