@@ -9,6 +9,7 @@ class CreateNewController extends Controller
     public function index(){
         return view('news.form');
     }
+   
    public function store(Request $request){
       $noticias = new Noticia();
       $noticias->Titulo=$request->input('txtnotice');
