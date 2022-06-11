@@ -48,8 +48,8 @@
             </select>
             
             
-            <i class="bi bi-list-task" style="margin-left: 80px; margin-top: 20px"></i>
-            <i class="bi bi-plus-circle-fill" style="margin-left: 30px; margin-top: 20px"></i>
+            <a href="#"><i class="bi bi-list-task" style="margin-left: 80px; margin-top: 20px"></i></a>
+            <a href="#"><i class="bi bi-plus-circle-fill" style="margin-left: 30px; margin-top: 20px"></i></a> 
 
           </div>
         </div>
