@@ -13,4 +13,5 @@ class Noticia extends Model
     protected $fillable = [
       'Descripcion','Titulo','urlImage'
     ];
+    public $timestamps=false;
 }

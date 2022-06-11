@@ -45,8 +45,8 @@
    <body>
 
     <div class="form-class">
-    <form action="" method="POST">
-    
+    <form action="{{route('news.store')}}" method="POST">
+    @csrf
       <label for="txtnotice">Titulo Noticia: </label>
       <input type="text" name="txtnotice" required >
   
@@ -63,10 +63,12 @@
       <label for="">Enlace url imagen: </label>
       <input type="text" name="txturli" required>
     </div>
-    </form>
     <br/>
     <br/>
     <input type="submit" name="btnadd" value="Agregar Noticia" id="buttonadd">
     <button href="#" id="buttonver">Ver Listado</button>
+    </form>
+   
+    
    </body>
 </html>
