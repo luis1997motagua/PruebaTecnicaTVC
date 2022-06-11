@@ -69,7 +69,7 @@
     <input type="submit"  value="Agregar Noticia" id="buttonadd">
   
     </form>
-    <a href="#" id="buttonver">Ver Listado</a>
+    <a href="{{route('listnews.index')}}" id="buttonver">Ver Listado</a>
     
    </body>
   
