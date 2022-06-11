@@ -14,5 +14,7 @@ use App\Http\Controllers\CreateNewController;
 |
 */
 
-Route::get('/homenews',[NewsController::class,'sectionnews']);
-Route::get('/addnew',[CreateNewController::class,'mantnews']);
+//Route::get('/homenews',[NewsController::class,'index']);
+//Route::get('/form',[CreateNewController::class,'index']);
+Route::resource('/index',NewsController::class);
+Route::resource('/news',CreateNewController::class);

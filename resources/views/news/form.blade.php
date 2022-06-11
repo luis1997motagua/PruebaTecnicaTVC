@@ -66,7 +66,7 @@
     </form>
     <br/>
     <br/>
-    <input type="submit" value="Agregar Noticia" id="buttonadd">
+    <input type="submit" name="btnadd" value="Agregar Noticia" id="buttonadd">
     <button href="#" id="buttonver">Ver Listado</button>
    </body>
 </html>
