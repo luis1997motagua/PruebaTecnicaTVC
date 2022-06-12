@@ -58,7 +58,7 @@
       <label >Descripción: </label>
 
       <br/>
-      <textarea name="txtdesc" cols="60" rows="10"  required value="{{$noticias->Descripcion}}"></textarea>
+      <textarea name="txtdesc" cols="60" rows="10"  required>{{$noticias->Descripcion}}</textarea>
       
       <br/>
       <br/>
