@@ -51,7 +51,7 @@
                  <th>ID</th>
                  <th>Titulo</th>
                  <th>Descripcion</th>
-                 <th>Url Image</th>
+                 <th>Url Imagen</th>
                 </tr>
               </thead>
               <tbody>
