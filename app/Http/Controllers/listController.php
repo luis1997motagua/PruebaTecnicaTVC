@@ -21,7 +21,12 @@ class listController extends Controller
     }
 
     public function update(Request $request,$id){
-    
+       $noticias = Noticia::findOrFail($id);
+       $noticias->Titulo=$request->input('txtnotice1');
+       $noticias->Descripcion=$request->input('txtdesc1');
+       $noticias->urlImage=$request->input('txturl');
+       $noticias->save();
+       return redirect()->route('listnews.index');
     }
 
     public function destroy($id){
