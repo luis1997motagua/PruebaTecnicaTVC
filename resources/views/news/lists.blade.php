@@ -57,7 +57,7 @@
               <tbody>
                 @foreach($noticias as $notice)
                  <tr>
-                    <td><a href="{{route('updtnews.index')}}" class="btn btn-warning btn-sm">Editar</a>
+                    <td><a href="{{route('listnews.edit',$notice->Id)}}" class="btn btn-warning btn-sm">Editar</a>
                     <form action="{{route('listnews.destroy',$notice->Id)}}" method="post">
                        @csrf
                        @method('DELETE')

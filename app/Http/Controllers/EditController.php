@@ -11,13 +11,10 @@ class EditController extends Controller
         return view('news.edit');        
     }
 
-     /*public function edit(){
-        $noticias = Noticia::findOrFail($id);
-        return view('updtnews.index',compact('noticias'));
+   
+
+    public function update(Request $request,$id){
 
     }
-*/
-    public function update(){
-
-    }
+  
 }

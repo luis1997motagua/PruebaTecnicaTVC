@@ -46,11 +46,11 @@
    <body>
 
     <div class="form-class">
-    <form action="{{route('updtnews.update')}}" method="POST" >
+    <form action="#" method="POST" >
     @csrf
-    @METHOD('PUT');
+    @METHOD('PUT')
       <label >Titulo Noticia: </label>
-      <input type="text" name="txtnotice" required  >
+      <input type="text" name="txtnotice" required value="{{$noticias->Titulo}}" >
   
       <br/>
       <br/>
@@ -58,12 +58,12 @@
       <label >Descripción: </label>
 
       <br/>
-      <textarea name="txtdesc" cols="60" rows="10"  required ></textarea>
+      <textarea name="txtdesc" cols="60" rows="10"  required value="{{$noticias->Descripcion}}"></textarea>
       
       <br/>
       <br/>
       <label>Enlace url imagen: </label>
-      <input type="text" name="txturli"   required>
+      <input type="text" name="txturli"   required value="{{$noticias->urlImage}}">
     </div>
     <br/>
     <br/>
